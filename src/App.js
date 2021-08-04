@@ -1,9 +1,11 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Routes } from './services/routes'; 
 
 function App() {
   return (
-   <div>
-     <h1>Get Social App</h1>
-   </div>
+    <Router>
+    <Routes />
+  </Router>
   );
 }
 
